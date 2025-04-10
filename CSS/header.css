@@ -3,49 +3,35 @@
   color: white;
   position: relative;
   overflow: hidden;
-  max-height: 947px;
-}
-.gradient_background::before {
-  content: "ПОСТРОЙ\A СВОЁ ТЕЛО";
-  white-space: pre;
-  position: absolute;
-  font-family: Arial;
-  font-weight: 900;
-  font-size: 160px;
-  line-height: 160px;
-  letter-spacing: 5%;
-  color: #CFCFCD;
-  z-index: 0;
-  top: 44%;
-  left: 48%;
-  transform: translate(-50%, -50%);
-  text-align: left;
 }
 
-.header {
+
+ .header {
+  margin-top: 30px;
+  margin-bottom: 10px;
+ }
+
+ .header_wrapper {
   display: flex;
+  align-items:center;
   justify-content: space-between;
-  align-items: center;
-  padding: 30px 260px 10px 260px;
-  z-index: 1;
-}
-
-.header_logo {
-  max-width: 182px;
-}
-
-.header_navigation {
+ }
+ .header_logo {
+  max-height: 182px;
+ }
+ .header_navigation {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  gap: 64px;
-}
+  justify-content: space-between;
+ }
 
-.header_navigation-item {
-  text-decoration:  none;
+ .header_navigation-item {
+  padding: 11px 32px;
+  text-decoration: none;
   color: #292929;
+  font-family: Roboto;
   font-weight: 500;
   font-size: 20px;
   line-height: 100%;
   letter-spacing: 10%;
-}
+ }

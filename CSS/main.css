@@ -1,0 +1,53 @@
+main {
+  
+  padding-top: 120px;
+}
+
+.main__wrapper{
+  position: relative;
+}
+
+.main_preview {
+  position: absolute;
+  bottom: 0;
+  left: -220px;
+  z-index: 3;
+}
+
+.title {
+  position: relative;
+  font-family: Arial;
+  font-weight: 900;
+  font-size: 160px;
+  line-height: 160px;
+  letter-spacing: 5%;
+  color: #CFCFCD;
+  padding-left: 220px;
+  z-index: 1;
+}
+
+.descr {
+  position: relative;
+  top: -90px;
+  color: #000000;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 10%;
+  max-width: 587px;
+  margin-left: auto;
+  z-index: 2;
+}
+
+.descr a {
+  display: block;
+  padding: 11px 32px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 10%;
+  margin-top: 14px;
+  padding-bottom: 192px;
+  text-decoration: none;
+  color: #000000;
+}
