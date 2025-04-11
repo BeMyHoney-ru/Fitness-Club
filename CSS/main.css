@@ -1,4 +1,4 @@
-main {
+.main {
   
   padding-top: 120px;
 }
@@ -14,7 +14,7 @@ main {
   z-index: 3;
 }
 
-.title {
+.main__title {
   position: relative;
   font-family: Arial;
   font-weight: 900;
@@ -26,7 +26,7 @@ main {
   z-index: 1;
 }
 
-.descr {
+.main__descr {
   position: relative;
   top: -90px;
   color: #000000;
@@ -39,7 +39,7 @@ main {
   z-index: 2;
 }
 
-.descr a {
+.main__descr a {
   display: block;
   padding: 11px 32px;
   font-weight: 500;
