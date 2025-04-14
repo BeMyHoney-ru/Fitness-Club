@@ -6,7 +6,7 @@
   position: relative;
 }
 
-.main_preview {
+.main__preview {
   position: absolute;
   bottom: 0;
   left: -220px;
